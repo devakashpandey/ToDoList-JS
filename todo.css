@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@200;300;500;600&family=Roboto+Flex:opsz,wght@8..144,500&family=Water+Brush&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+header{
+                    min-height: 70vh;
+                    background-image: url(pic.jpeg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    background-position: center;
+                    /* clip-path:circle(180vh at 50% -95vh); */
+                    color: white;
+                    font-size: 18px;
+                    position: relative;
+                    
+}
+
+.logo{
+                    cursor: pointer;
+                   
+}
+
+
+.menu a{
+                    text-decoration: none;
+                    color: white; 
+                    margin: 0px 40px;
+                    padding: 0px 10px;
+                    cursor: pointer;
+
+}
+
+nav{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 80px;
+                    height: 60px;
+}
+
+.headline{
+                    position: absolute;
+                    top:50%;
+                    left:50%;
+                    transform:translate(-50%,-50%);
+                    text-align: center;
+}
+
+.btn-headline{
+                    outline: none;
+                    padding:10px 40px;
+                    cursor: pointer;
+                    margin-top: 15px;
+                    font-weight: 600;
+}
+
+.todo-section
+{
+   margin-top: 50px;
+   text-align: center;
+
+}
+
+.form-todo{
+                    margin: 0px 300px;  
+                    min-height:40px;  
+                    display: flex;   
+                    justify-content: space-between;    
+                    margin-top: 10px;                
+}
+
+.form-todo input {
+
+       min-height: 100%;
+}
+
+
+.form-todo input[type="text"]
+{
+   width: 78%;
+   padding: 10px;
+   font-size: 15px;
+}
+
+
+.form-todo input[type="submit"]
+{
+   width: 20%;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   font-weight: 600;
+}
+
+
+.todo-list{
+   text-align: left;
+   font-size: 18px;
+   list-style-type: none;
+   margin-left: 200px;
+ 
+}
+
+span{
+   margin-top: 3px;
+   padding-left: 5px;
+}
+
+.todo-list li{
+   padding: 8px;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   width: 80%;
+   margin: 30px;
+}
+
+.todo-btn{
+   padding:3px 10px;
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+.sign-up{
+           margin-top: 50px;
+           padding: 0px 300px;
+           text-align: center;  
+           background-color: rgb(229, 232, 222);
+           
+}
+
+.signup-form{
+                    
+                    width: 70%;
+                    margin: auto;
+                    text-align: left;                
+}
+
+
+.sub-btn{
+     padding: 6px 35px;
+     background-color: black;
+     color: white;
+     cursor: pointer;  
+     text-align: center;
+     display: block;
+     margin: auto;
+     margin-top: 20px;
+     font-size: 15px
+
+}
+
+
+.signup-form label{
+  display: block;
+  font-size: 18px;
+}
+
+.signup-form input{
+                    display: block;
+                    width: 100%;
+}
+
+.sign-up{
+                    padding-top: 2px;
+}
+
+.signup-form input[type="text"]{
+
+                    font-size: 15px;
+                    padding:3px;
+
+}
+
+
+.signup-form input[type="email"]{
+
+                    font-size: 15px;
+                    padding:3px;
+
+}
+
+.signup-form input[type="password"]{
+
+                    font-size: 15px;
+                    padding:3px;
+
+}
+
+.signup-form input[type="number"]{
+
+                    font-size: 15px;
+                    padding:3px;
+
+}
